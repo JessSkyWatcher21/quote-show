@@ -1,0 +1,52 @@
+/* Stylesheet */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {  
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  
+  /* Extend full height of browser  */
+  height: 100vh;
+  
+  /* Load Background Images with JS. Style with CSS */ 
+  background-size: cover;
+}
+
+/* Apply Font */
+main {
+  font-family: 'Charm', cursive;
+  font-size: 3vmin;
+  text-align: center;
+  
+  /* Add contrast to text */
+  background-color: rgba(255, 255, 255, 0.70);
+}
+
+p{
+  position: relative;
+  top: 10%;
+}
+
+blockquote{
+  height: 60px;
+}
+
+.prev {
+   position: relative;
+   top: 120%; 
+}
+
+.next {
+   position: relative;
+   top: 120%; 
+}
+
+.random {
+   position: relative;
+   top: 120%; 
+}
